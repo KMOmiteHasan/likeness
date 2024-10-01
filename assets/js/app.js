@@ -306,7 +306,7 @@ $(function () {
     });
 
     $('.slick-fullwidth').slick({
-        centerMode: true,
+        centerMode: false,
         centerPadding: '15%',
         slidesToShow: 3,
         dots: true,
@@ -324,7 +324,7 @@ $(function () {
             },
             {
                 breakpoint: 767,
-                settings: {centerPadding: '10px', slidesToShow: 1}
+                settings: { centerPadding: '10px', slidesToShow: 1 }, 
             }
         ]
     });

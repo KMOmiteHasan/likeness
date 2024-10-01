@@ -4764,6 +4764,7 @@ a {
     position: absolute;
     top: 0px;
     box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 40%);
+    object-fit: cover;
 }
 
 .testimonial-2 .testimonials-inner .testimonial-info {
